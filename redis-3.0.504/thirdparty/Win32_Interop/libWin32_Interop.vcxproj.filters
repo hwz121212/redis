@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Win32_ANSI.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_APIs.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_CommandLine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Common.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_dlmalloc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Error.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_EventLog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_FDAPI.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_fdapi_crt.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_PThread.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_QFork.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_QFork_impl.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_RedisLog.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win32_rfdmap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_service.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Signal_Process.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_StackTrace.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_ThreadControl.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Time.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_variadicFunctor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win32_wsiocp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win32fixes.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\EventLog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32_ANSI.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32_APIs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32_Assert.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32_CommandLine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32_Common.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32_dlmalloc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32_Error.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32_EventLog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32_FDAPI.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32_fdapi_crt.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32_Portability.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32_PThread.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32_QFork.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32_QFork_impl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32_RedisLog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\win32_rfdmap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32_Service.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32_Signal_Process.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32_SmartHandle.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32_StackTrace.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32_ThreadControl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32_Time.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\win32_types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\win32_types_hiredis.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32_variadicFunctor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\win32_winapifamily.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\win32_wsiocp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\win32_wsiocp2.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\win32fixes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WS2tcpip.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{88e91f1d-939d-4252-8abd-18585f190c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{645a489d-b791-4fdd-9855-3a403e8976c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\EventLog.mc">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+</Project>

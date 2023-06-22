@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{c3486fa5-300b-4239-9d68-053597e4c451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{451004c5-32f6-4300-aeaf-aa830b4b166b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\ae.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\redis.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dict.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\adlist.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sds.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\redisassert.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rio.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fmacros.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\solarisfixes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\zmalloc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ziplist.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\intset.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\version.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\latency.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sparkline.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rdb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\crc64.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lzf.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bio.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cluster.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asciilogo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\endianconv.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\help.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lzfP.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pqsort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sha1.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\slowlog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\testhelp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\zipmap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ae.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dict.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\adlist.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sds.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rio.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\config.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zmalloc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anet.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ziplist.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\intset.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\latency.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sparkline.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rdb.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crc64.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lzf_c.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lzf_d.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\release.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aof.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bio.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cluster.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bitops.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\blocked.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crc16.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\db.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\debug.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\endianconv.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hyperloglog.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\multi.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\notify.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pqsort.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pubsub.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rand.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\replication.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sentinel.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\setproctitle.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sha1.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\slowlog.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sort.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\syncio.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\t_hash.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\t_list.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\t_set.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\t_string.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\t_zset.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zipmap.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memtest.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\networking.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\object.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\redis.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripting.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\redis-trib.rb">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+</Project>
